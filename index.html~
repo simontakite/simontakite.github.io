@@ -17,7 +17,7 @@
 
    <meta charset="utf-8">
 
-	<title>Simon Takite - Curriculum Vitae</title>
+	<title>Ceevee - Free Responsive HTML5/CSS3 Template</title>
 
 	<meta name="description" content="">
 
@@ -111,7 +111,7 @@
 
             <h1 class="responsive-headline">I'm Simon Takite.</h1>
 
-            <h3>An IT professional with several years of <span>Systems development and Network/Systems Administration</span>, or mission critical network systems. I currently specialize in applying agile techniques in <span>infrastructure integration</span> projects or sometimes simply called <span>devops</span>; agile techniques used in development have an impact on the way operations organizes its work. Similar engineers are becoming programmers because of the virtualization and automation trend where everything is managed through an API following the principle of <span>infrastructure as code</span>  
+            <h3>An IT professional with several years of <span>Systems development and Network/Systems Administration</span>, or mission critical network systems. I currently specialize in applying agile techniques in <span>infrastructure integration</span> projects or what is sometimes called <span>devops</span>; agile techniques used in development have an impact on the way operations organizes it work. Similar engineers are becoming programmers because of the virtualization and automation trend where everything is managed through an API following the principle of <span>infrastructure as code</span>  
 start scrolling and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
 
             <hr />
@@ -552,7 +552,7 @@ Having joined Empower at its inception, my initial responsibilities were to desi
 <p>
 I was solely responsible for supporting this infrastructure for the first year, until the business expanded to the extent that further IT staff were required. I was asked to set up an IT department, and recruited another Sysadmin who specialised in Windows; the team continued to expand over the following years. I gained experience with Solaris 8, HP-UX and qualified as an Oracle administrator in order to install some of Empower’s products onto carrier-grade hardware; I also assisted with deploying the hardware into telcos.<p>
 
-<p>Core responsibilities:</p>
+<p>
 <ul class="disc">
 <li>Installation and configuration of Solaris, Linux for new build environment.</li>
 <li>Configuration of network equipment for newly builds servers.</li>
@@ -600,6 +600,67 @@ I was solely responsible for supporting this infrastructure for the first year, 
 
 
       </div> <!-- End Work -->
+
+
+<!-- ############################################################################################## -->
+
+      <!-- Personal
+
+      ----------------------------------------------- -->
+
+      <div class="row education">
+
+
+
+         <div class="three columns header-col">
+
+            <h1><span>Personal</span></h1>
+
+         </div>
+
+
+
+         <div class="nine columns main-col">
+
+
+
+            <div class="row item">
+
+
+
+               <div class="twelve columns">
+
+
+
+
+<h3>Hobbies & Interests</h3>
+<ul class="disc">
+                <li>Photography</li>
+		<li>Cooking</li>
+		<li>Socializing</li>
+		<li>Travelling </li>
+		<li>Astronomy</li>
+		<li>Cosmology</li>
+		<li>Tropical plants & animal</li>
+		<li>Language</li>
+</ul>
+
+
+
+               </div>
+
+
+
+            </div> <!-- item end -->
+
+
+
+         </div> <!-- main-col end -->
+
+
+
+      </div> <!-- End Education -->
+
 
 
  <!-- Skills
@@ -651,68 +712,7 @@ I was solely responsible for supporting this infrastructure for the first year, 
 
          </div> <!-- twelve columns end -->
 
-<!-- ############################################################################################## -->
 
-      <!-- Education
-
-      ----------------------------------------------- -->
-
-      <div class="row education">
-
-
-
-         <div class="three columns header-col">
-
-            <h1><span>Personal</span></h1>
-
-         </div>
-
-
-
-         <div class="nine columns main-col">
-
-
-
-            <div class="row item">
-
-
-
-               <div class="twelve columns">
-
-
-
-<h3>Hobbies & Interests</h3>
-<ul class="disc">
-                <li>Photography</li>
-		<li>Cooking</li>
-		<li>Socializing</li>
-		<li>Travelling </li>
-		<li>Astronomy</li>
-		<li>Cosmology</li>
-		<li>Tropical plants & animal</li>
-		<li>Language</li>
-</ul>
-
-
-<h3>Makerere University</h3>
-
-                  <p class="info">BSc. Computer Science <span>&bull;</span> <em class="date">July, 2005</em></p>
-
-
-
-               </div>
-
-
-
-            </div> <!-- item end -->
-
-
-
-         </div> <!-- main-col end -->
-
-
-
-      </div> <!-- End Education -->
 
    <!-- footer
 
