@@ -291,19 +291,109 @@ Several years as a SysAdmin, now a konsulent with Avantas. If I can't script in 
 
 
          <div class="nine columns main-col">
-	<h3>Configuration management</h3>
-
-
-
-            <ul>
-<li>FAI</li>
-<li>Puppet/MCollective</li>
-<li>Openstack</li>
-<li>Libguestfs</li>
+<h3>Configuration management</h3>
+<ul>
+<li>- FAI</li>
+<li>- Puppet/MCollective</li>
 </ul>
 
 
+<h3>Scripting</h3>
+<ul>
+<li>- Ruby</li>
+<li>- bash</li>
+<li>- Powershell</li>
+</ul>
 
+
+<h3>Programming</h3>
+<ul>
+<li>- Java</li>
+<li>- Jsp</li>
+<li>- Javascript</li>
+<li>- CSS</li>
+<li>- PHP</li>
+<li>- XML</li>
+<li>- XSLT</li>
+<li>- HTML</li>
+<li>- Openhaptics</li>
+<li>- Python</li>
+</ul>
+
+<h3>Development tools</h3>
+<ul>
+<li>- Git</li>
+<li>- Subversion</li>
+<li>- Vagrant</li>
+<li>- Gitlab</li>
+<li>- Vim</li>
+<li>- Emacs</li>
+<li>- Redmine</li>
+<li>- Trac</li>
+<li>- OpenProject</li>
+</ul>
+
+<h3>WWW</h3>
+<ul>
+<li>- nginx</li>
+<li>- Apache (including mod_rewrite)</li>
+<li>- PHP scripting</li>
+<li>- haproxy administration</li>
+</ul>
+
+<h3>OS</h3>
+<ul>
+<li>- Linux (Ubuntu, Debian)</li>
+<li>- FreeBSD (4, 5, 6, 7)</li>
+<li>- Windows</li>
+</ul>
+
+<h3>Cloud Computing</h3>
+<ul>
+<li>- The Foreman</li>
+<li>- Cloud Foundry(BOSH)</li>
+<li>- OpenStack</li>
+</ul>
+
+<h3>Databases & Catalogues</h3>
+<ul>
+<li>- MySQL (including MMM)</li>
+<li>- Cassandra</li>
+<li>- PostgreSQL</li>
+<li>- MS SQL</li>
+</ul>
+
+<h3>Network administration</h3>
+<ul>
+<li>- Network topology planning</li>
+<li>- DNS (BIND 8, 9)</li>
+<li>- Samba</li>
+</ul>
+
+<h3>Monitoring and measurement</h3>
+<ul>
+<li>- Nagios</li>
+<li>- Zabbix</li>
+<li>- Xymon</li>
+<li>- Munin</li>
+<li>- Ganglia</li>
+</ul>
+
+<h3>Backup and recovery</h3>
+<ul>
+<li>- Backuppc</li>
+<li>- Rsnapshot</li>
+<li>- Amanda</li>
+</ul>
+
+<h3>Logging</h3>
+<ul>
+<li>- Elasticsearch</li>
+<li>- Logstash</li>
+<li>- Kibana</li>
+<li>- fluentd</li>
+<li>- Graylog2.</li>
+</ul>
 
 
 	</div> <!-- main-col end -->
