@@ -117,7 +117,7 @@
 
             <h1 class="responsive-headline">I'm Simon Takite.</h1>
 
-            <h3>An IT professional with several years of <span>Systems development and Network/Systems Administration</span>, or mission critical network systems. I currently specialize in applying agile techniques in <span>infrastructure integration</span> projects or what is sometimes called <span>devops</span>; agile techniques used in development have an impact on the way operations organizes it work. Similar engineers are becoming programmers because of the virtualization and automation trend where everything is managed through an API following the principle of <span>infrastructure as code</span>  
+            <h3>An IT professional with several years of <span>Systems development and Network/Systems Administration</span>, or mission critical network systems. I currently specialize in applying agile techniques in <span>infrastructure integration</span> projects or what is sometimes called <span>devops</span>; agile techniques used in development have an impact on the way operations organizes it work. Similar engineers are becoming programmers because of the virtualization and automation trend where everything is managed through an API following the principle of <b>infrastructure as code</b>  
 start scrolling and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
 
             <hr />
@@ -185,9 +185,7 @@ start scrolling and learn more <a class="smoothscroll" href="#about">about me</a
 
 
             <p>Before contacting me, I'm not currently interested in the following:
-Jobs outside of Norway, Anything involving Microsoft Technologies and anything involving Oracle Database.
-
-Several years as a SysAdmin, now a konsulent with Avantas. If I can't script in bash/python, it probably isn't worth doing. If you can extract my phone number from the details below, then maybe I'll speak to you.
+Jobs outside of Norway, Anything involving Microsoft Technologies and anything involving Oracle Databases. If I can't script in bash/python, it probably isn't worth doing. If you can extract my phone number from the details below, then maybe I'll speak to you.
 
             </p>
 
