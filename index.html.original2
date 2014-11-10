@@ -117,7 +117,7 @@
 
             <h1 class="responsive-headline">I'm Jonathan Doe.</h1>
 
-            <h3>I'm a Trondheim, Norway based <span>devops/system administration engineer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
+            <h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
 
             effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
 
@@ -195,10 +195,17 @@
 
 
 
-            <p>Before contacting me, I'm not currently interested in the following:
-Jobs outside of Norway, Anything involving Microsoft Technologies and anything involving Oracle Database.
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
 
-Several years as a SysAdmin, now a konsulent with Avantas. If I can't script in bash/python, it probably isn't worth doing. If you can extract my phone number from the details below, then maybe I'll speak to you.
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+
+            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+
+            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+
+            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
 
             </p>
 
@@ -216,17 +223,17 @@ Several years as a SysAdmin, now a konsulent with Avantas. If I can't script in 
 
                   <p class="address">
 
-						   <span>Simon Takite</span><br>
+						   <span>Jonathan Doe</span><br>
 
-						   <span>DevOps/Systems Administration<br>
+						   <span>1600 Amphitheatre Parkway<br>
 
-						         Trondheim, Norway
+						         Mountain View, CA 94043 US
 
                      </span><br>
 
-						   <span>Mobile: KzQ3IDk4NjEzNDI0Cg==</span><br>
+						   <span>(123)456-7890</span><br>
 
-                     <span>simon.takite-at-gmail.com</span>
+                     <span>anyone@website.com</span>
 
 					   </p>
 
@@ -274,46 +281,6 @@ Several years as a SysAdmin, now a konsulent with Avantas. If I can't script in 
 
 
 
-      <!-- Skills
-
-      ----------------------------------------------- -->
-
-      <div class="row skill">
-
-
-
-         <div class="three columns header-col">
-
-            <h1><span>Skills</span></h1>
-
-         </div>
-
-
-
-         <div class="nine columns main-col">
-	<h3>Configuration management</h3>
-
-
-
-            <ul>
-<li>FAI</li>
-<li>Puppet/MCollective</li>
-<li>Openstack</li>
-<li>Libguestfs</li>
-</ul>
-
-
-
-
-
-	</div> <!-- main-col end -->
-
-
-
-      </div> <!-- End skills -->
-
-
-
       <!-- Education
 
       ----------------------------------------------- -->
@@ -342,7 +309,7 @@ Several years as a SysAdmin, now a konsulent with Avantas. If I can't script in 
 
 
 
-                  <h3>Norwegian University</h3>
+                  <h3>University of Life</h3>
 
                   <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p>
 
@@ -513,6 +480,75 @@ Several years as a SysAdmin, now a konsulent with Avantas. If I can't script in 
 
 
       </div> <!-- End Work -->
+
+
+
+
+
+      <!-- Skills
+
+      ----------------------------------------------- -->
+
+      <div class="row skill">
+
+
+
+         <div class="three columns header-col">
+
+            <h1><span>Skills</span></h1>
+
+         </div>
+
+
+
+         <div class="nine columns main-col">
+
+
+
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+
+            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+
+            voluptatem sequi nesciunt.
+
+            </p>
+
+
+
+				<div class="bars">
+
+
+
+				   <ul class="skills">
+
+					   <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
+
+                  <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
+
+						<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
+
+						<li><span class="bar-expand css"></span><em>CSS</em></li>
+
+						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+
+                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+
+					</ul>
+
+
+
+				</div><!-- end skill-bars -->
+
+
+
+			</div> <!-- main-col end -->
+
+
+
+      </div> <!-- End skills -->
+
 
 
    </section> <!-- Resume Section End-->
