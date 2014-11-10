@@ -291,14 +291,14 @@ Jobs outside of Norway, Anything involving Microsoft Technologies and anything i
 
 
                   <h3>Configuration management</h3>
-<ul>
+<ul class="disc">
 <li>- FAI</li>
 <li>- Puppet/MCollective</li>
 </ul>
 
 
 <h3>Scripting</h3>
-<ul>
+<ul class="disc">
 <li>- Ruby</li>
 <li>- bash</li>
 <li>- Powershell</li>
@@ -306,7 +306,7 @@ Jobs outside of Norway, Anything involving Microsoft Technologies and anything i
 
 
 <h3>Programming</h3>
-<ul>
+<ul class="disc">
 <li>- Java</li>
 <li>- Jsp</li>
 <li>- Javascript</li>
@@ -320,7 +320,7 @@ Jobs outside of Norway, Anything involving Microsoft Technologies and anything i
 </ul>
 
 <h3>Development tools</h3>
-<ul>
+<ul class="disc">
 <li>- Git</li>
 <li>- Subversion</li>
 <li>- Vagrant</li>
@@ -333,12 +333,12 @@ Jobs outside of Norway, Anything involving Microsoft Technologies and anything i
 </ul>
 
 <h3>Test & packaging</h3>
-<ul>
+<ul class="disc">
 <li>- Jenkins</li>
 </ul>
 
 <h3>WWW</h3>
-<ul>
+<ul class="disc">
 <li>- nginx</li>
 <li>- Apache (including mod_rewrite)</li>
 <li>- PHP scripting</li>
@@ -347,7 +347,7 @@ Jobs outside of Norway, Anything involving Microsoft Technologies and anything i
 </ul>
 
 <h3>OS</h3>
-<ul>
+<ul class="disc">
 <li>- Linux (Ubuntu, Debian)</li>
 <li>- FreeBSD (4, 5, 6, 7)</li>
 <li>- Windows</li>
@@ -360,7 +360,7 @@ Jobs outside of Norway, Anything involving Microsoft Technologies and anything i
 </ul>
 
 <h3>Databases & Catalogues</h3>
-<ul>
+<ul class="disc">
 <li>- MySQL (including MMM)</li>
 <li>- Cassandra</li>
 <li>- PostgreSQL</li>
@@ -375,7 +375,7 @@ Jobs outside of Norway, Anything involving Microsoft Technologies and anything i
 </ul>
 
 <h3>Monitoring and measurement</h3>
-<ul>
+<ul class="disc">
 <li>- Nagios</li>
 <li>- Zabbix</li>
 <li>- Xymon</li>
@@ -384,14 +384,14 @@ Jobs outside of Norway, Anything involving Microsoft Technologies and anything i
 </ul>
 
 <h3>Backup and recovery</h3>
-<ul>
+<ul class="disc">
 <li>- Backuppc</li>
 <li>- Rsnapshot</li>
 <li>- Amanda</li>
 </ul>
 
 <h3>Logging</h3>
-<ul>
+<ul class="disc">
 <li>- Elasticsearch</li>
 <li>- Logstash</li>
 <li>- Kibana</li>
