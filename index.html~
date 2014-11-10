@@ -117,9 +117,7 @@
 
             <h1 class="responsive-headline">I'm Simon Takite.</h1>
 
-            <h3>An IT professional with several years of <span>Systems development and Network/Systems Administration</span>, or mission critical network systems. I've assumed different roles in organizations ranging from <span>developer, network specialist, system administrator and automation</span>. <p>I currently specialize in applying Agile techniques in <span>infrastructure integration</span> projects or what is sometimes called <span>devops</span>; agile techniques used in development have an impact on the way operations organizes it work. Similar engineers are becoming programmers because of the virtualization and automation trend where everything is managed through an API following the principle of <span>'infrastructure as code'</span><a class="smoothscroll" href="#about">start scrolling</a></p>
-
-            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <h3>An IT professional with several years of <span>Systems development and Network/Systems Administration</span>, or mission critical network systems. I currently specialize in applying agile techniques in <span>infrastructure integration</span> projects or what is sometimes called <span>devops</span>; agile techniques used in development have an impact on the way operations organizes it work. Similar engineers are becoming programmers because of the virtualization and automation trend where everything is managed through an API following the principle of <span>'infrastructure as code'</span>  <a class="smoothscroll" href="#about">start scrolling</a> and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
 
             <hr />
 
