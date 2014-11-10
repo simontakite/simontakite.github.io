@@ -602,6 +602,53 @@ I was solely responsible for supporting this infrastructure for the first year, 
       </div> <!-- End Work -->
 
 
+
+ <!-- Skills
+
+      ----------------------------------------------- -->
+
+      <div class="row skill">
+
+
+
+         <div class="three columns header-col">
+
+            <h1><span>Language</span></h1>
+
+         </div>
+
+
+
+         <div class="nine columns main-col">
+
+
+
+				<div class="bars">
+
+
+
+				   <ul class="skills">
+
+					   <li><span class="bar-expand photoshop"></span><em>Norwegian</em></li>
+
+						<li><span class="bar-expand css"></span><em>English</em></li>
+
+					</ul>
+
+
+
+				</div><!-- end skill-bars -->
+
+
+
+			</div> <!-- main-col end -->
+
+
+
+      </div> <!-- End skills -->
+
+
+
 <!-- ############################################################################################## -->
 
       <!-- Personal
@@ -659,53 +706,8 @@ I was solely responsible for supporting this infrastructure for the first year, 
 
 
 
-      </div> <!-- End Education -->
+      </div> <!-- End Personal -->
 
-
-
- <!-- Skills
-
-      ----------------------------------------------- -->
-
-      <div class="row skill">
-
-
-
-         <div class="three columns header-col">
-
-            <h1><span>Language</span></h1>
-
-         </div>
-
-
-
-         <div class="nine columns main-col">
-
-
-
-				<div class="bars">
-
-
-
-				   <ul class="skills">
-
-					   <li><span class="bar-expand photoshop"></span><em>Norwegian</em></li>
-
-						<li><span class="bar-expand css"></span><em>English</em></li>
-
-					</ul>
-
-
-
-				</div><!-- end skill-bars -->
-
-
-
-			</div> <!-- main-col end -->
-
-
-
-      </div> <!-- End skills -->
 
    </section> <!-- Resume Section End-->
 
