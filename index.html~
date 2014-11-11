@@ -654,8 +654,7 @@ I was solely responsible for supporting this infrastructure for the first year, 
       <!-- Personal
 
       ----------------------------------------------- -->
-<p><!-- ############ --></p>
-      <div class="row personal">
+      <div class="row skill">
 
 
 
@@ -668,14 +667,6 @@ I was solely responsible for supporting this infrastructure for the first year, 
 
 
          <div class="nine columns main-col">
-
-
-
-            <div class="row item">
-
-
-
-               <div class="twelve columns">
 
 
 
@@ -712,7 +703,7 @@ I was solely responsible for supporting this infrastructure for the first year, 
    </section> <!-- Resume Section End-->
 
 
-         </div> <!-- twelve columns end -->
+</div> <!-- twelve columns end -->
 
 
 
@@ -748,7 +739,8 @@ I was solely responsible for supporting this infrastructure for the first year, 
 
                <li>&copy; This project is maintained by <a href="https://github.com/absolootly">Simon Takite</a></li>
 
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+	       <li>License: <a title="creativecommons" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></li>   
 
             </ul>
 
