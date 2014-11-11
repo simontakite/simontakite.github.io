@@ -1,0 +1,792 @@
+
+<!DOCTYPE html>
+
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+
+
+
+   <!--- Basic Page Needs
+
+   ================================================== -->
+
+   <meta charset="utf-8">
+
+	<title>Simon Takite - Curriculum Vitae</title>
+
+	<meta name="description" content="">
+
+	<meta name="author" content="">
+
+
+
+   <!-- Mobile Specific Metas
+
+   ================================================== -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+	<!-- CSS
+
+    ================================================== -->
+
+   <link rel="stylesheet" href="css/default.css">
+
+	<link rel="stylesheet" href="css/layout.css">
+
+   <link rel="stylesheet" href="css/media-queries.css">
+
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+
+
+   <!-- Script
+
+   ================================================== -->
+
+	<script src="js/modernizr.js"></script>
+
+
+
+   <!-- Favicons
+
+	================================================== -->
+
+	<link rel="shortcut icon" href="favicon.png" >
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+   <!-- Header
+
+   ================================================== -->
+
+   <header id="home">
+
+
+
+      <nav id="nav-wrap">
+
+
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+
+
+         <ul id="nav" class="nav">
+
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+
+            <li><a class="smoothscroll" href="#about">About</a></li>
+
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+
+         </ul> <!-- end #nav -->
+
+
+
+      </nav> <!-- end #nav-wrap -->
+
+
+
+      <div class="row banner">
+
+         <div class="banner-text">
+
+            <h1 class="responsive-headline">I'm Simon Takite.</h1>
+
+            <h3>An IT professional with several years of <span>Systems development and Network/Systems Administration</span>, or mission critical network systems. I currently specialize in applying agile techniques in <span>infrastructure integration</span> projects or what is sometimes called <span>devops</span>; agile techniques used in development have an impact on the way operations organizes it work. Similar engineers are becoming programmers because of the virtualization and automation trend where everything is managed through an API following the principle of <span>infrastructure as code</span>  
+start scrolling and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+
+            <hr />
+
+            <ul class="social">
+
+               <li><a href="https://twitter.com/absolootly"><i class="fa fa-twitter"></i></a></li>
+
+               <li><a href="https://www.linkedin.com/profile/view?id=194226002"><i class="fa fa-linkedin"></i></a></li>
+
+               <li><a href="https://github.com/absolootly"><i class="fa fa-skype"></i></a></li>
+
+            </ul>
+
+         </div>
+
+      </div>
+
+
+
+      <p class="scrolldown">
+
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+
+      </p>
+
+
+
+   </header> <!-- Header End -->
+
+
+
+
+
+   <!-- About Section
+
+   ================================================== -->
+
+   <section id="about">
+
+
+
+      <div class="row">
+
+
+
+         <div class="three columns">
+
+
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+
+
+         </div>
+
+
+
+         <div class="nine columns main-col">
+
+
+
+            <h2>About Me</h2>
+
+
+
+            <p>Before contacting me, I'm not currently interested in the following:
+Jobs outside of Norway, Anything involving Microsoft Technologies and anything involving Oracle Databases. If I can't script in bash/python, it probably isn't worth doing. If you can extract my phone number from the details below, then maybe I'll speak to you.
+
+            </p>
+
+
+
+            <div class="row">
+
+
+
+               <div class="columns contact-details">
+
+
+
+                  <h2>Contact Details</h2>
+
+                  <p class="address">
+
+						   <span>Simon Takite</span><br>
+
+						   <span>DevOps/Systems Administration<br>
+
+						         Trondheim, Norway
+
+                     </span><br>
+
+						   <span>Mobile: KzQ3IDk4NjEzNDI0Cg==</span><br>
+
+                     <span>simon.takite-at-gmail.com</span>
+
+					   </p>
+
+
+
+               </div>
+
+
+
+               <div class="columns download">
+
+                  <p>
+
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+
+                  </p>
+
+               </div>
+
+
+
+            </div> <!-- end row -->
+
+
+
+         </div> <!-- end .main-col -->
+
+
+
+      </div>
+
+
+
+   </section> <!-- About Section End-->
+
+
+
+
+
+   <!-- Resume Section
+
+   ================================================== -->
+
+   <section id="resume">
+
+
+<!-- ############################################################################################## -->
+
+      <!-- Education
+
+      ----------------------------------------------- -->
+
+      <div class="row education">
+
+
+
+         <div class="three columns header-col">
+
+            <h1><span>Skills</span></h1>
+
+         </div>
+
+
+
+         <div class="nine columns main-col">
+
+
+
+            <div class="row item">
+
+
+
+               <div class="twelve columns">
+
+
+
+<h3>Configuration management</h3>
+<ul class="disc">
+<li>FAI</li>
+<li>Puppet/MCollective</li>
+</ul>
+
+
+<h3>Scripting</h3>
+<ul class="disc">
+<li>Ruby</li>
+<li>bash</li>
+<li>Powershell</li>
+</ul>
+
+
+<h3>Programming</h3>
+<ul class="disc">
+<li>Java</li>
+<li>Jsp</li>
+<li>Javascript</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>XML</li>
+<li>XSLT</li>
+<li>HTML</li>
+<li>Openhaptics</li>
+<li>Python</li>
+</ul>
+
+<h3>Development tools</h3>
+<ul class="disc">
+<li>Git</li>
+<li>Subversion</li>
+<li>Vagrant</li>
+<li>Gitlab</li>
+<li>Vim</li>
+<li>Emacs</li>
+<li>Redmine</li>
+<li>Trac</li>
+<li>OpenProject</li>
+</ul>
+
+<h3>Test & packaging</h3>
+<ul class="disc">
+<li> Jenkins</li>
+</ul>
+
+<h3>WWW</h3>
+<ul class="disc">
+<li>nginx</li>
+<li>Apache (including mod_rewrite)</li>
+<li>PHP scripting</li>
+<li>haproxy administration</li>
+<li>IIS (some)</li>
+</ul>
+
+<h3>OS</h3>
+<ul class="disc">
+<li>Linux (Ubuntu, Debian)</li>
+<li>FreeBSD (4, 5, 6, 7)</li>
+<li>Windows</li>
+</ul>
+
+<h3>Cloud Computing</h3>
+<ul class="disc">
+<li>The Foreman</li>
+<li>OpenStack</li>
+</ul>
+
+<h3>Databases & Catalogues</h3>
+<ul class="disc">
+<li>MySQL (including MMM)</li>
+<li>Cassandra</li>
+<li>PostgreSQL</li>
+<li>MS SQL</li>
+</ul>
+
+<h3>Network administration</h3>
+<ul class="disc">
+<li>Network topology planning</li>
+<li>DNS (BIND 8, 9)</li>
+<li>Samba</li>
+</ul>
+
+<h3>Monitoring and measurement</h3>
+<ul class="disc">
+<li>Nagios</li>
+<li>Zabbix</li>
+<li>Xymon</li>
+<li>Munin</li>
+<li>Ganglia</li>
+</ul>
+
+<h3>Backup and recovery</h3>
+<ul class="disc">
+<li>Backuppc</li>
+<li>Rsnapshot</li>
+<li>Amanda</li>
+</ul>
+
+<h3>Logging</h3>
+<ul class="disc">
+<li>Elasticsearch</li>
+<li>Logstash</li>
+<li>Kibana</li>
+<li>fluentd</li>
+<li>Graylog2</li>
+</ul>
+
+
+<h3>General knowledge</h3>
+<p>
+<b>DNS</b> (unbound & nsd / Bind9), Backuppc, SAN, NFS, ZFS (Openindiana), Active Directory, Oracle VM, PXE, Postfix, Postgrey, Dovecot, Spamassassin, Clamav, Amavis, <b>Collaboration & Groupware</b>  (Zimbra, Horde4, Roundcube), <b>Firewalls/Security</b> (Pfsense, iptables, ufw), Dansguardian, AppArmor, OpenVPN, OpenLDAP, Samba, Clustering (Heartbeat, DRBD, NLB), DHCP, KVM/libvirt, OpenSSH.
+</p>
+
+
+            </div> <!-- item end -->
+
+
+
+            </div> <!-- item end -->
+
+
+
+         </div> <!-- main-col end -->
+
+
+
+      </div> <!-- End Education -->
+
+<!-- ############################################################################################## -->
+
+      <!-- Education
+
+      ----------------------------------------------- -->
+
+      <div class="row education">
+
+
+
+         <div class="three columns header-col">
+
+            <h1><span>Education</span></h1>
+
+         </div>
+
+
+
+         <div class="nine columns main-col">
+
+
+
+            <div class="row item">
+
+
+
+               <div class="twelve columns">
+
+
+
+                  <h3>Norwegian University of Science & Technology</h3>
+
+                  <p class="info">Master of Science in Information Systems <span>&bull;</span> <em class="date">August, 2011</em></p>
+
+
+
+<h3>Makerere University</h3>
+
+                  <p class="info">BSc. Computer Science <span>&bull;</span> <em class="date">July, 2005</em></p>
+
+
+
+               </div>
+
+
+
+            </div> <!-- item end -->
+
+
+
+         </div> <!-- main-col end -->
+
+
+
+      </div> <!-- End Education -->
+
+
+
+      <!-- Work
+
+      ----------------------------------------------- -->
+
+      <div class="row work">
+
+
+
+         <div class="three columns header-col">
+
+            <h1><span>Work</span></h1>
+
+         </div>
+
+
+
+         <div class="nine columns main-col">
+
+
+
+            <div class="row item">
+
+
+
+               <div class="twelve columns">
+
+
+
+                  <h3>Avantas</h3>
+
+                  <p class="info">Systems Administator<span>&bull;</span> <em class="date">April 2014 - Present</em></p>
+
+
+
+                  <p>
+
+                  Rex Features is Britain’s leading independent photographic press agency and picture library. Rex supplies a daily service of news, celebrity, features, and stock photos to all national newspapers, magazines, TV, web and other media in the UK and in more than 30 countries worldwide.
+
+My work at Rex covered the usual gamut of Sysadmin tasks, including: backup and recovery, webserver administration, DNS management, plenty of scripting (mostly in bash), patching servers, and writing and maintaining documentation. There was also some SQL Server admin, and a certain amount of desktop support – Rex is a company of ~80 employees, supported by an IT department of four. All new server hardware passed through my hands for installation and configuration.
+
+When I joined Rex, the IT department consisted of two very busy people. The IT infrastructure had been growing rapidly, deployment had happened on a seemingly ad-hoc basis, and documentation was fairly sparse. My initial tasks included:
+</p>
+<p>
+- Installing a CVS server (yes, this was 2003) and gathering code and scripts into it <br />
+- Rolling out the Amanda backup system and setting up a proper backup and recovery scheme<br />
+- Getting the RT ticketing system up and running (we later moved to Jira)<br />
+- Beginning the process of documenting everything in Twiki (we subsequently migrated to Mediawiki)<br />
+</p>
+
+
+               </div>
+
+
+
+            </div> <!-- item end -->
+
+
+
+            <div class="row item">
+
+
+
+               <div class="twelve columns">
+
+
+
+                  <h3>AdeccoIT</h3>
+
+                  <p class="info">Consultant/Sysadmin <span>&bull;</span> <em class="date">May 2013 - February 2014</em></p>
+
+
+
+                  <p>
+
+                  Empower Interactive was a telecoms software startup, founded in 2000 in the City of London. The company grew from an initial team of eight to a team of approximately 60 people based all over the globe.<p>
+<p>
+Having joined Empower at its inception, my initial responsibilities were to design and implement the IT infrastructure necessary to support the operations of the fledgling business. This included: network planning; server acquisition and installation (various internal servers, external mail server, firewall, etc); deploying a backup and recovery scheme; managing the website; and a great deal of user education. I also got involved in many other aspects of the business – this was a tiny start-up, so I found myself doing testing, writing user manuals for Empower’s products, and even doing a little Java.<p>
+<p>
+I was solely responsible for supporting this infrastructure for the first year, until the business expanded to the extent that further IT staff were required. I was asked to set up an IT department, and recruited another Sysadmin who specialised in Windows; the team continued to expand over the following years. I gained experience with Solaris 8, HP-UX and qualified as an Oracle administrator in order to install some of Empower’s products onto carrier-grade hardware; I also assisted with deploying the hardware into telcos.<p>
+
+<p>
+<ul class="disc">
+<li>Installation and configuration of Solaris, Linux for new build environment.</li>
+<li>Configuration of network equipment for newly builds servers.</li>
+<li>Virtual Machine administration on hypervisor OVM.</li>
+<li>Installation and configuration of Solaris Zones.</li>
+<li>Database Administration on Various platforms like Linux and Windows server.</li>
+<li>Server Hardware support like Dell Power Edge, Hp Proliant, and Sun X series.</li>
+<li>Storage administration like Oracle Sun Unified ZFS Storage.</li>
+<li>Adding Disks and creating Slices and File system Administration.</li>
+<li>Disk replacement (Root disk / Data disk).</li>
+<li>Configuring and monitoring Disk mirroring, striping using LVM.</li>
+<li>NFS configuration & administration.</li>
+<li>Kernel re-configuration & parameter tuning.</li>
+<li>Monitoring & troubleshooting with performance related issues</li>
+<li>Managing all rebooting & part replacement activities.</li>
+<li>Managing upgrade of Linux and Solaris servers.</li>
+<li>Providing training to Junior Staff.</li>
+<li>User Management & Administration.</li>
+<li>LDAP Administration.</li>
+<li>File system management.</li>
+<li>Ticket assessment on daily basis.</li>
+<li>Creating SOP (Standard Operating Procedure).</li>
+<li>space management.</li>
+<li>Job Scheduling and Automating process using CRON & AT.</li>
+<li>RAID configuration.</li>
+<li>Installation of patches and packages.</li>
+<li>Configuring and managing network interfaces.</li>
+<li>Basic creation and troubleshooting on scripting like Shell/Perl.</li>
+</ul>
+
+                  <p>
+
+
+
+               </div>
+
+
+
+            </div> <!-- item end -->
+
+
+
+         </div> <!-- main-col end -->
+
+
+
+      </div> <!-- End Work -->
+
+
+
+ <!-- Skills
+
+      ----------------------------------------------- -->
+
+      <div class="row skill">
+
+
+
+         <div class="three columns header-col">
+
+            <h1><span>Language</span></h1>
+
+         </div>
+
+
+
+         <div class="nine columns main-col">
+
+
+
+				<div class="bars">
+
+
+
+				   <ul class="skills">
+
+					   <li><span class="bar-expand photoshop"></span><em>Norwegian</em></li>
+
+						<li><span class="bar-expand css"></span><em>English</em></li>
+
+					</ul>
+
+
+
+				</div><!-- end skill-bars -->
+
+
+
+			</div> <!-- main-col end -->
+
+
+
+      </div> <!-- End skills -->
+
+
+
+<!-- ############################################################################################## -->
+
+      <!-- Personal
+
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+
+
+         <div class="three columns header-col">
+
+            <h1><span>Personal</span></h1>
+
+         </div>
+
+
+
+         <div class="nine columns main-col">
+
+
+
+
+<h3>Hobbies & Interests</h3>
+<ul class="disc">
+                <li>Photography</li>
+		<li>Cooking</li>
+		<li>Socializing</li>
+		<li>Travelling </li>
+		<li>Astronomy</li>
+		<li>Cosmology</li>
+		<li>Tropical plants & animal</li>
+		<li>Language</li>
+</ul>
+
+
+
+               </div>
+
+
+
+            </div> <!-- item end -->
+
+
+
+         </div> <!-- main-col end -->
+
+
+
+      </div> <!-- End Personal -->
+
+
+   </section> <!-- Resume Section End-->
+
+
+</div> <!-- twelve columns end -->
+
+
+
+   <!-- footer
+
+   ================================================== -->
+
+   <footer>
+
+
+
+      <div class="row">
+
+
+
+         <div class="twelve columns">
+
+
+
+            <ul class="social-links">
+
+               <li><a href="https://twitter.com/absolootly"><i class="fa fa-twitter"></i></a></li>
+
+               <li><a href="https://www.linkedin.com/profile/view?id=194226002"><i class="fa fa-linkedin"></i></a></li>
+
+               <li><a href="https://github.com/absolootly"><i class="fa fa-skype"></i></a></li>
+
+            </ul>
+
+
+
+            <ul class="copyright">
+
+               <li>&copy; This project is maintained by <a href="https://github.com/absolootly">Simon Takite</a></li>
+
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+
+            </ul>
+
+
+
+         </div>
+
+
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+
+
+      </div>
+
+
+
+   </footer> <!-- Footer End-->
+
+
+
+   <!-- Java Script
+
+   ================================================== -->
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+   <script src="js/jquery.flexslider.js"></script>
+
+   <script src="js/waypoints.js"></script>
+
+   <script src="js/jquery.fittext.js"></script>
+
+   <script src="js/magnific-popup.js"></script>
+
+   <script src="js/init.js"></script>
+
+
+
+</body>
+
+
+
+</html>
