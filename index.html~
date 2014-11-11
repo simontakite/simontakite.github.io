@@ -356,7 +356,6 @@ Jobs outside of Norway, Anything involving Microsoft Technologies and anything i
 <h3>Databases & Catalogues</h3>
 <ul class="disc">
 <li>MySQL (including MMM)</li>
-<li>Cassandra</li>
 <li>PostgreSQL</li>
 <li>MS SQL</li>
 </ul>
@@ -538,7 +537,7 @@ When I joined Rex, the IT department consisted of two very busy people. The IT i
 
 
 
-                  <h3>AdeccoIT</h3>
+                  <h3>AdeccoIT/Lithicon</h3>
 
                   <p class="info">Consultant/Sysadmin <span>&bull;</span> <em class="date">May 2013 - February 2014</em></p>
 
@@ -546,11 +545,11 @@ When I joined Rex, the IT department consisted of two very busy people. The IT i
 
                   <p>
 
-                  Empower Interactive was a telecoms software startup, founded in 2000 in the City of London. The company grew from an initial team of eight to a team of approximately 60 people based all over the globe.<p>
+                  Lithicon formally Numerical Rocks AS was a digital rock analysis company, founded in Trondheim - Norway in 2004 as a spinoff of Statoil ASA. The company grew from an initial team of a few individuals to a team of approximately 100s of researchers and developers based in Australia, Norway and USA.<p>
 <p>
-Having joined Empower at its inception, my initial responsibilities were to design and implement the IT infrastructure necessary to support the operations of the fledgling business. This included: network planning; server acquisition and installation (various internal servers, external mail server, firewall, etc); deploying a backup and recovery scheme; managing the website; and a great deal of user education. I also got involved in many other aspects of the business – this was a tiny start-up, so I found myself doing testing, writing user manuals for Empower’s products, and even doing a little Java.<p>
-<p>
-I was solely responsible for supporting this infrastructure for the first year, until the business expanded to the extent that further IT staff were required. I was asked to set up an IT department, and recruited another Sysadmin who specialised in Windows; the team continued to expand over the following years. I gained experience with Solaris 8, HP-UX and qualified as an Oracle administrator in order to install some of Empower’s products onto carrier-grade hardware; I also assisted with deploying the hardware into telcos.<p>
+I joined as a cover for their systems administrator before the company's expansion spanning continents, my initial responsibilities were to maintain, design and implement the IT infrastructure necessary to support the operations of the fledgling business. This included: network planning; server acquisition and installation (various internal servers, external mail server, firewall, etc); deploying a backup and recovery scheme; managing the website; and a great deal of user education. I also got involved in many other aspects of the business – as this was a tiny start-up at that time, so I found myself doing testing, writing user manuals, and tutoring new staff.<p>
+</p>
+Other responsibilities included;</p>
 
 <p>
 <ul class="disc">
@@ -584,7 +583,7 @@ I was solely responsible for supporting this infrastructure for the first year, 
 </ul>
 
                   <p>
-
+In 2013, the company was formed into FEI Lithicon as the result of the integration of two of the world’s leading digital core imaging and analysis companies: Digitalcore Pty Ltd of Canberra, Australia and Numerical Rocks AS of Trondheim, Norway at a tune of 500million NOK by FEI Company.</p>
 
 
                </div>
@@ -654,7 +653,7 @@ I was solely responsible for supporting this infrastructure for the first year, 
       <!-- Personal
 
       ----------------------------------------------- -->
-      <div class="row skill">
+      <div class="row personal">
 
 
 
