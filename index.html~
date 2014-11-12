@@ -203,9 +203,10 @@ Jobs outside of Norway, Anything involving Microsoft Technologies and anything i
 
 						         Trondheim, Norway
 
-                     </span><br>
+                     </span><br><span>Git: <a href="https://github.com/absolootly">absolootly</a></span><br>
 
 						   <span>Mobile: KzQ3IDk4NjEzNDI0Cg==</span><br>
+							
 
                      <span>simon.takite-at-gmail.com</span>
 
@@ -515,7 +516,9 @@ My work at UNINETT covered the usual gamut of Sysadmin tasks, including: Setup, 
 </p>
 <p>
 <ul class="disc">
-<li>Server Administration (company infrastructure and client servers) of Debian, FreeBSD Operating Systems: setup, configuration, update, troubleshooting and monitoring</li>
+<li>Systems Monitoring & Administration</li>
+<li>Creation and tuning of all state based, event based, and performance monitoring  via SNMP, TCP and ICMP checks</li>
+<li>Service and distributed application, performance, and event ID / log-based monitoring</li>
 <li>Setup, configuration and support of the Zabbix monitoring system</li>
 <li>Migrating the monitoring system from Xymon to Zabbix</li>
 <li>Placement of servers in data center</li>
@@ -528,7 +531,7 @@ My work at UNINETT covered the usual gamut of Sysadmin tasks, including: Setup, 
 <li>Managed Server migrations, upgrades, patches and firmware updates</li>
 <li>Report and troubleshooting service and application related issues</li>
 <li>Customization of opensource packages such as Zabbix and Request Tracker</li>
-<li>Integration of third party APIs like Zabbix API with reporting and warning systems such as IRC</li>
+<li>Integration of third party APIs like Zabbix API with reporting and warning systems such as IRC, Jabber and Request Tracker</li>
 <li>Documentation</li>
 </ul>
 </p>
