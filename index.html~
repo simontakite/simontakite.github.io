@@ -179,7 +179,7 @@
 
 
             <p>Before contacting me, I'm not currently interested in the following:
-Jobs outside of Norway, Anything involving Microsoft Technologies and anything involving Oracle Databases. If I can't script in bash/python, it probably isn't worth doing. If you can extract my phone number from the details below, then maybe I'll speak to you.
+Jobs outside of Norway, Anything involving Microsoft Technologies and anything involving Oracle Databases. If I can't script in bash/python/ruby or php, it probably isn't worth doing. If you can extract my phone number from the details below, then maybe we can talk on phone.
 
             </p>
 
@@ -222,7 +222,7 @@ Jobs outside of Norway, Anything involving Microsoft Technologies and anything i
 
                   <p>
 
-                     <a href="#" class="button"><i class="fa fa-download"></i>Last ned [Norsk]</a>
+                     <a href="resume.pdf" class="button"><i class="fa fa-download"></i>Last ned [Norsk]</a>
 
                   </p>
 
@@ -720,6 +720,154 @@ In 2013, the company was formed into FEI Lithicon as the result of the integrati
 
 
 </div> <!-- twelve columns end -->
+
+
+
+   <!-- Contact Section
+
+   ================================================== -->
+
+   <section id="contact">
+
+
+
+         <div class="row section-head">
+
+
+
+            <div class="two columns header-col">
+
+
+
+               <h1><span>Get In Touch.</span></h1>
+
+
+
+            </div>
+
+
+
+            <div class="ten columns">
+
+
+
+                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+
+                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+
+                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+
+                  </p>
+
+
+
+            </div>
+
+
+
+         </div>
+
+
+
+         <div class="row">
+
+
+
+            <div class="eight columns">
+
+
+
+               <!-- form -->
+
+               <form action="" method="post" id="contactForm" name="contactForm">
+
+					<fieldset>
+
+
+
+                  <div>
+
+						   <label for="contactName">Name <span class="required">*</span></label>
+
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+
+                  </div>
+
+
+
+                  <div>
+
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+
+                  </div>
+
+
+
+                  <div>
+
+						   <label for="contactSubject">Subject</label>
+
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+
+                  </div>
+
+
+
+                  <div>
+
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+
+                  </div>
+
+
+
+                  <div>
+
+                     <button class="submit">Submit</button>
+
+                     <span id="image-loader">
+
+                        <img alt="" src="images/loader.gif">
+
+                     </span>
+
+                  </div>
+
+
+
+					</fieldset>
+
+				   </form> <!-- Form End -->
+
+
+
+               <!-- contact-warning -->
+
+               <div id="message-warning"> Error boy</div>
+
+               <!-- contact-success -->
+
+				   <div id="message-success">
+
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+
+				   </div>
+
+
+
+            </div>
+
+      </div>
+
+
+
+   </section> <!-- Contact Section End-->
+
+
 
 
 
