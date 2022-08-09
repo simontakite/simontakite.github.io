@@ -1,0 +1,72 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: default-backend
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: errorpage
+  namespace: default-backend
+spec:
+  selector:
+    matchLabels:
+      app: errorpage
+  template:
+    metadata:
+      labels:
+        app: errorpage
+    spec:
+      terminationGracePeriodSeconds: 5
+      containers:
+      - name: server
+        image: intnodennoe01nortacr.azurecr.io/default-backend
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 9090
+        env:
+        - name: PORT
+          value: "9090"
+        resources:
+          requests:
+            cpu: 200m
+            memory: 180Mi
+          limits:
+            cpu: 300m
+            memory: 300Mi
+        readinessProbe:
+          initialDelaySeconds: 1
+          periodSeconds: 5
+          timeoutSeconds: 1
+          successThreshold: 1
+          failureThreshold: 1
+          tcpSocket:
+            host:
+            port: 9090
+        livenessProbe:
+          initialDelaySeconds: 1
+          periodSeconds: 5
+          timeoutSeconds: 1
+          successThreshold: 1
+          failureThreshold: 1
+          tcpSocket:
+            host:
+            port: 9090
+      imagePullSecrets:
+        - name: acr-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: errorpage
+  namespace: default-backend
+spec:
+  type: ClusterIP
+  selector:
+    app: errorpage
+  ports:
+  - protocol: TCP
+    port: 9090
+    targetPort: 9090
