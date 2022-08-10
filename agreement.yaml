@@ -21,6 +21,8 @@ spec:
       labels:
         app: agreement-service
     spec:
+      imagePullSecrets:
+        - name: acr-secret
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
