@@ -1,0 +1,118 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agreement-service
+  namespace: minside
+spec:
+  selector:
+    matchLabels:
+      app: agreement-service
+  revisionHistoryLimit: 5
+  progressDeadlineSeconds: 600
+  replicas: 1
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: agreement-service
+    spec:
+      terminationGracePeriodSeconds: 5
+      containers:
+      - name: server
+        image: intnodennoe01nortacr.azurecr.io/agreement-service:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+        env:
+        - name: PORT
+          value: "80"
+        - name: AGREEMENTSERVICE__DBCONNECTIONSTRING
+          value: __{agreementservicedbconnectionstring}__
+        - name: AGREEMENTSERVICE__LOGGING__APPINSIGHTSCONNECTIONSTRING
+          value: __{appinsightsconnectionstring}__
+        - name: AGREEMENTSERVICE__APIMSUBSCRIPTIONKEY
+          value: __{apimsubscriptionkey}__
+        - name: AGREEMENTSERVICE__CLIENTCONFIG__CLIENTID
+          value: __{m2mserviceclientid}__
+        - name: AGREEMENTSERVICE__CLIENTCONFIG__CLIENTSECRET
+          value: __{m2mserviceclientsecret}__
+        - name: AGREEMENTSERVICE__CLIENTCONFIG__ACCESSTOKENURL
+          value: __{accesstokenurl}__
+        - name: AGREEMENTSERVICE__EXTERNALSERVICES__SAPSERVICEURL
+          value: __{sapserviceurl}__
+        - name: AGREEMENTSERVICE__IDENTITYPROVIDERSERVICE__AUTHORITY
+          value: __{identityproviderserviceauthority}__
+        - name: AGREEMENTSERVICE__IDENTITYPROVIDERSERVICE__ISSUER
+          value: __{identityproviderserviceissuer}__
+        - name: AGREEMENTSERVICE__IDENTITYPROVIDERSERVICE__SCOPE
+          value: __{identityproviderservicescope}__
+        resources:
+          requests:
+            cpu: 200m
+            memory: 180Mi
+          limits:
+            cpu: 300m
+            memory: 300Mi
+        readinessProbe:
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 15
+          successThreshold: 1
+          failureThreshold: 5
+          tcpSocket:
+            port: 80
+        livenessProbe:
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 10
+          successThreshold: 1
+          failureThreshold: 5
+          tcpSocket:
+            port: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: agreement-service
+  namespace: minside
+spec:
+  type: ClusterIP
+  selector:
+    app: agreement-service
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+---    
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: agreement
+  namespace: minside
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    cert-manager.io/cluster-issuer: letsencrypt
+spec:
+  ingressClassName: nginx
+  tls:
+  - hosts:
+    - agreement.p-nortura.com
+    secretName: tls-secret-agreement
+  rules:
+  - host: agreement.p-nortura.com
+    http:
+      paths:
+      - path: /(.*)
+        pathType: Prefix
+        backend:
+          service:
+            name: agreement-service
+            port:
+              number: 80
