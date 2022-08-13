@@ -1,0 +1,12 @@
+communications:
+  slack:
+    enabled: true
+    channel: "aks-prod"
+    token: "xoxb-743289601603-3960497827824-9xvBigwpubtT3Gua8HRbk7OA"
+
+config:
+  settings:
+    clustername: "intnode-p-noe-01-nort-aks"
+    kubectl:
+      enabled: true
+      restrictAccess: true
