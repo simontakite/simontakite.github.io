@@ -6,7 +6,7 @@ communications:
 
 config:
   settings:
-    clustername: "intnode-p-noe-01-nort-aks"
+    clustername: ""
     kubectl:
       enabled: true
       restrictAccess: true
